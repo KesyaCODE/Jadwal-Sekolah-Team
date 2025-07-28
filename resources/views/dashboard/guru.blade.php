@@ -128,6 +128,7 @@
     <a href="#" class="menu-item">Jadwal</a>
     <a href="#" class="menu-item">Siswa</a>
     <a href="#" class="menu-item">Profile</a>
+    @csrf
     <button class="logout-btn" onclick="window.location.href='{{ route('logout') }}'">Keluar</button>
     <div class="cs-btn">
       <img src="/img/CS.svg" alt="CS" width="20"> 

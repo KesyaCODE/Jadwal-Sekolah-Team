@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dashboard Siswa</title>
   <style>
-    body {
+    body { /* Gaya umum untuk body */
       font-family: 'Segoe UI', sans-serif;
       background-color: #e6f0fa;
       margin: 0;
       padding: 0;
     }
 
-    .header {
+    .header { /* Header di atas */
       background-color: #91b9e4;
       padding: 20px;
       text-align: center;
@@ -20,11 +20,11 @@
       color: white;
       border-radius: 0 0 20px 20px;
     }
-    .header span {
+    .header span { /* Nama siswa di header */
       color: gold;
     }
 
-    .sidebar {
+    .sidebar { /* Sidebar di kiri */
       width: 180px;
       background-color: #f4f9fd;
       position: fixed;
@@ -35,13 +35,13 @@
       border-right: 1px solid #ccc;
     }
 
-    .sidebar h3 {
+    .sidebar h3 { /* Judul di sidebar */
       text-align: center;
       color: #333;
       font-weight: bold;
     }
 
-    .menu-item {
+    .menu-item { /* Item menu di sidebar */
       display: block;
       padding: 15px;
       margin: 10px;
@@ -53,11 +53,11 @@
       font-weight: bold;
     }
 
-    .menu-item:hover {
+    .menu-item:hover { /* Gaya saat hover pada item menu */
       background-color: #87aed2;
     }
 
-    .logout-btn {
+    .logout-btn { /* Tombol logout di sidebar */
       background-color: #f86a6a;
       color: white;
       border: none;
@@ -70,7 +70,7 @@
       font-weight: bold;
     }
 
-    .cs-btn {
+    .cs-btn { /* Tombol customer service di sidebar */
       background-color: #cde3f3;
       border-radius: 10px;
       margin: 10px auto;
@@ -80,12 +80,12 @@
       cursor: pointer;
     }
 
-    .main-content {
+    .main-content { /* Konten utama di sebelah kanan sidebar */
       margin-left: 200px;
       padding: 30px;
     }
 
-    .greeting {
+    .greeting { /* Pesan sambutan di konten utama */
       background-color: #e8fce8;
       padding: 15px;
       border-radius: 10px;
@@ -94,13 +94,13 @@
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
-    .profile {
+    .profile { /* Bagian profil siswa */
       display: flex;
       align-items: center;
       gap: 20px;
     }
 
-    .profile-pic {
+    .profile-pic { /* Gambar profil siswa */
       width: 150px;
       height: 150px;
       border-radius: 50%;
@@ -112,11 +112,11 @@
       color: #333;
     }
 
-    .info {
+    .info { /* Informasi siswa */
       flex: 1;
     }
 
-    .info-box {
+    .info-box { /* Kotak informasi siswa */
       background-color: #f7fbff;
       padding: 15px;
       border-radius: 10px;
